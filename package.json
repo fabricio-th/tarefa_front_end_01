@@ -1,0 +1,19 @@
+{
+  "name": "tarefa01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fabricio-th/tarefa_front_end_01.git"
+  },
+  "author": "Fanuel Nunes <fanuel.nunes@caed.ufjf.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabricio-th/tarefa_front_end_01/issues"
+  },
+  "homepage": "https://github.com/fabricio-th/tarefa_front_end_01#readme"
+}

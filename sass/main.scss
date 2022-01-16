@@ -1,0 +1,62 @@
+@import "bootstrap-5.1.3/scss/bootstrap";
+
+button {
+	font-size: 1rem;
+}
+
+.page-section {
+	padding: 8rem 0;
+}
+
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url("../img/img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+header.masthead h1, header.masthead .h1 {
+  font-size: 3.25rem;
+}
+
+.text-white-75 {
+    color: fade-out($white, 0.25) !important;
+}
+
+.text-header {
+	font-size: 2.25rem;
+}
+
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+hr.divider {
+  height: 0.2rem;
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+  background-color: #f4623a;
+  opacity: 1;
+}
+
+hr.divider-light {
+  background-color: #fff;
+}
